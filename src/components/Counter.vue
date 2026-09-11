@@ -22,6 +22,7 @@ export default{
         <button @click="increment">Increase</button>
         <h3>{{count}}</h3>
         <button @click="decrement">Decrease</button>
+        <input type="text" v-model="count">
     </div>
 
 </template>
