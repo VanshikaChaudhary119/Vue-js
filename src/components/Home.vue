@@ -1,6 +1,6 @@
 <template>
     <h1>
-        Home component
+        Home component {{"helloert".length}}
     </h1>
 </template>
 <!-- <script>
