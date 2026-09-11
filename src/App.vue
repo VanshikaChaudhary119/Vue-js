@@ -6,7 +6,7 @@ import Home from './components/Home.vue';
 export default {
   components:{
     Counter,
-    Home
+    
   },
 }
 </script>
