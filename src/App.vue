@@ -2,12 +2,14 @@
 import Counter from './components/Counter.vue';
 import Form from './components/Form.vue';
 import Home from './components/Home.vue';
+import Radio from './components/Radio.vue';
 
 export default {
   components:{
     // Counter,
     // Home
-    Form
+    // Form
+    Radio
   },
 }
 </script>
@@ -17,6 +19,8 @@ export default {
  <Home/>
  <Counter/>
  <Form/>
+ <Radio/>
 </template>
+
 
 <style scoped></style>
