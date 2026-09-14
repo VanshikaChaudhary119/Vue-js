@@ -9,11 +9,11 @@ import Radio from './components/Radio.vue';
 export default {
   components:{
     // Counter,
-    // Home
+    Home
     // Form
     // Radio
     // IfElse
-    Loops
+    // Loops
   },
 }
 </script>
