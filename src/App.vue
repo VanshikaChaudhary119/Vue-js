@@ -2,6 +2,7 @@
 import Counter from './components/Counter.vue';
 import Form from './components/Form.vue';
 import Home from './components/Home.vue';
+import IfElse from './components/IfElse.vue';
 import Radio from './components/Radio.vue';
 
 export default {
@@ -9,7 +10,8 @@ export default {
     // Counter,
     // Home
     // Form
-    Radio
+    // Radio
+    IfElse
   },
 }
 </script>
@@ -20,6 +22,7 @@ export default {
  <Counter/>
  <Form/>
  <Radio/>
+ <IfElse/>
 </template>
 
 
