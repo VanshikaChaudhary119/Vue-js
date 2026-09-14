@@ -1,5 +1,6 @@
 <script>
 import Counter from './components/Counter.vue';
+import Data from './components/Data.vue';
 import Form from './components/Form.vue';
 import Home from './components/Home.vue';
 import IfElse from './components/IfElse.vue';
@@ -9,11 +10,12 @@ import Radio from './components/Radio.vue';
 export default {
   components:{
     // Counter,
-    Home
+    // Home
     // Form
     // Radio
     // IfElse
     // Loops
+    Data
   },
 }
 </script>
@@ -26,6 +28,7 @@ export default {
  <Radio/>
  <IfElse/>
  <Loops/>
+ <Data/>
 </template>
 
 
