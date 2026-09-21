@@ -10,6 +10,7 @@ import Parent from './components/Parent.vue';
 import Props from './components/Props.vue';
 
 import Radio from './components/Radio.vue';
+import Ref from './components/Ref.vue';
 
 export default {
   components:{
@@ -23,7 +24,8 @@ export default {
     // Binding
     // Classbinding
     // Props
-    Parent
+    // Parent
+    Ref
   },
 }
 </script>
@@ -41,6 +43,7 @@ export default {
  <Classbinding/>
  <Props/>
  <Parent/>
+ <Ref/>
 </template>
 
 
