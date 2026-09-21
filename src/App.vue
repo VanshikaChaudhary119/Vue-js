@@ -1,4 +1,5 @@
 <script>
+import Classbinding from './components/Classbinding.vue';
 import Counter from './components/Counter.vue';
 import Data from './components/Data.vue';
 import Form from './components/Form.vue';
@@ -15,7 +16,9 @@ export default {
     // Radio
     // IfElse
     // Loops
-    Data
+    // Data
+    // Binding
+    Classbinding
   },
 }
 </script>
@@ -29,6 +32,8 @@ export default {
  <IfElse/>
  <Loops/>
  <Data/>
+ <Binding/>
+ <Classbinding/>
 </template>
 
 
