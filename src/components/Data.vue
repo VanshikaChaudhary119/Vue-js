@@ -1,7 +1,7 @@
 <template>
 <h1>Reuse Component</h1>
 <ul>
-    <li v-for = "item in user":key=item  >
+    <li v-for = "item in user":key=item>
     <user :data="item" 
     :getData="getData" />
     </li>
