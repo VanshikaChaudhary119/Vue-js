@@ -11,6 +11,7 @@ import Props from './components/Props.vue';
 
 import Radio from './components/Radio.vue';
 import Ref from './components/Ref.vue';
+import SimpleForm from './components/SimpleForm.vue';
 
 export default {
   components:{
@@ -25,7 +26,8 @@ export default {
     // Classbinding
     // Props
     // Parent
-    Ref
+    // Ref
+    SimpleForm
   },
 }
 </script>
@@ -44,6 +46,7 @@ export default {
  <Props/>
  <Parent/>
  <Ref/>
+ <SimpleForm/>
 </template>
 
 
