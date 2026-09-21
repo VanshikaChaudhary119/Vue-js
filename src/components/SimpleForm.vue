@@ -10,6 +10,32 @@
 <input type="password" placeholder="Enter password" v-model="form.password">
 <br>
 <br>
+<select v-model="form.country">
+    <option>India</option>
+     <option>China</option>
+      <option>USA</option>
+</select>
+
+<br>
+<br>
+<h3>Technology</h3>
+<label for="">Java</label>
+<input type="checkbox" value="java" v-model="form.technology">
+<br>
+<label for="">Python</label>
+<input type="checkbox" value="python"
+v-model="form.technology">
+<br>
+<label for="">C</label>
+<input type="checkbox" value="C" v-model="form.technology">
+<br>
+<br>
+<h3>Gender</h3>
+<label for="">Male</label>
+<input type="radio" value="male" name="gender" v-model="form.gender">
+<br>
+<label for="">Female</label>
+<input type="radio" value="female" name="gender" v-model="form.gender">
 <button v-on:click="login" type="button">
     Login
 </button>
@@ -24,7 +50,10 @@ export default{
         return{
             form:{
                 email:"",
-                password:""
+                password:"",
+                country:"",
+                technology:[],
+                gender:""
             }
         }
     },
