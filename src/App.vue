@@ -6,6 +6,7 @@ import Form from './components/Form.vue';
 import Home from './components/Home.vue';
 import IfElse from './components/IfElse.vue';
 import Loops from './components/Loops.vue';
+import Parent from './components/Parent.vue';
 import Props from './components/Props.vue';
 
 import Radio from './components/Radio.vue';
@@ -21,7 +22,8 @@ export default {
     // Data
     // Binding
     // Classbinding
-    Props
+    // Props
+    Parent
   },
 }
 </script>
@@ -38,6 +40,7 @@ export default {
  <Binding/>
  <Classbinding/>
  <Props/>
+ <Parent/>
 </template>
 
 
