@@ -6,6 +6,7 @@ import Form from './components/Form.vue';
 import Home from './components/Home.vue';
 import IfElse from './components/IfElse.vue';
 import Loops from './components/Loops.vue';
+import Modifiers from './components/Modifiers.vue';
 import Parent from './components/Parent.vue';
 import Props from './components/Props.vue';
 
@@ -27,7 +28,8 @@ export default {
     // Props
     // Parent
     // Ref
-    SimpleForm
+    // SimpleForm
+    Modifiers
   },
 }
 </script>
@@ -47,6 +49,7 @@ export default {
  <Parent/>
  <Ref/>
  <SimpleForm/>
+ <Modifiers/>
 </template>
 
 
