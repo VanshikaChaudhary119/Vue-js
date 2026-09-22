@@ -48,9 +48,15 @@ export default {
 </script>
 
 <template>
-  <router-link to="/" >Home</router-link>
-  <router-link to="/login" >Login</router-link>
-  <router-link to="/profile" >Profile</router-link>
+  <router-link to="/">Home</router-link>
+  <br>
+  <router-link to="/login">Login</router-link>
+  <br>
+  <router-link to="/profile/1">vanshika'Profile</router-link>
+  <br>
+   <router-link to="/profile/2">Muskan's Profile</router-link>
+   <br>
+    <router-link to="/profile/3">Yashika's Profile</router-link>
   <router-view></router-view>
   <!-- <h1>You did it!</h1>
  <Home/>
