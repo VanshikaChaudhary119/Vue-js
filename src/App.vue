@@ -16,6 +16,7 @@ import PropsHome from './components/PropsHome.vue';
 import Radio from './components/Radio.vue';
 import Ref from './components/Ref.vue';
 import SimpleForm from './components/SimpleForm.vue';
+import Watchers from './components/Watchers.vue';
 
 export default {
   components:{
@@ -34,7 +35,8 @@ export default {
     // SimpleForm
     // Modifiers
     // PropsHome
-    Computed
+    // Computed
+    Watchers
   },
 }
 </script>
@@ -57,6 +59,7 @@ export default {
  <Modifiers/>
  <PropsHome/>
  <Computed/>
+ <Watchers/>
 </template>
 
 
