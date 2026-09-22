@@ -7,6 +7,7 @@ import Dynamic from './components/Dynamic.vue';
 import Form from './components/Form.vue';
 import Home from './components/Home.vue';
 import IfElse from './components/IfElse.vue';
+import Lifecycle from './components/Lifecycle.vue';
 import Loops from './components/Loops.vue';
 import Modifiers from './components/Modifiers.vue';
 
@@ -40,7 +41,8 @@ export default {
     // Computed
     // Watchers
     // Slots
-    Dynamic
+    // Dynamic
+    Lifecycle
   },
 }
 </script>
@@ -66,6 +68,7 @@ export default {
  <Watchers/>
  <Slots/>
  <Dynamic/>
+ <Lifecycle/>
 </template>
 
 
