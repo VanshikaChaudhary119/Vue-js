@@ -1,5 +1,6 @@
 <script>
 import Classbinding from './components/Classbinding.vue';
+import Computed from './components/Computed.vue';
 import Counter from './components/Counter.vue';
 import Data from './components/Data.vue';
 import Form from './components/Form.vue';
@@ -7,8 +8,10 @@ import Home from './components/Home.vue';
 import IfElse from './components/IfElse.vue';
 import Loops from './components/Loops.vue';
 import Modifiers from './components/Modifiers.vue';
+
 import Parent from './components/Parent.vue';
 import Props from './components/Props.vue';
+import PropsHome from './components/PropsHome.vue';
 
 import Radio from './components/Radio.vue';
 import Ref from './components/Ref.vue';
@@ -29,7 +32,9 @@ export default {
     // Parent
     // Ref
     // SimpleForm
-    Modifiers
+    // Modifiers
+    // PropsHome
+    Computed
   },
 }
 </script>
@@ -50,6 +55,8 @@ export default {
  <Ref/>
  <SimpleForm/>
  <Modifiers/>
+ <PropsHome/>
+ <Computed/>
 </template>
 
 
