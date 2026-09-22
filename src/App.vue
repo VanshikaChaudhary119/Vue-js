@@ -3,6 +3,7 @@ import Classbinding from './components/Classbinding.vue';
 import Computed from './components/Computed.vue';
 import Counter from './components/Counter.vue';
 import Data from './components/Data.vue';
+import Dynamic from './components/Dynamic.vue';
 import Form from './components/Form.vue';
 import Home from './components/Home.vue';
 import IfElse from './components/IfElse.vue';
@@ -38,7 +39,8 @@ export default {
     // PropsHome
     // Computed
     // Watchers
-    Slots
+    // Slots
+    Dynamic
   },
 }
 </script>
@@ -63,6 +65,7 @@ export default {
  <Computed/>
  <Watchers/>
  <Slots/>
+ <Dynamic/>
 </template>
 
 
