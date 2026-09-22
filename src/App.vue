@@ -42,13 +42,17 @@ export default {
     // Watchers
     // Slots
     // Dynamic
-    Lifecycle
+    // Lifecycle
   },
 }
 </script>
 
 <template>
-  <h1>You did it!</h1>
+  <router-link to="/" >Home</router-link>
+  <router-link to="/login" >Login</router-link>
+  <router-link to="/profile" >Profile</router-link>
+  <router-view></router-view>
+  <!-- <h1>You did it!</h1>
  <Home/>
  <Counter/>
  <Form/>
@@ -68,7 +72,7 @@ export default {
  <Watchers/>
  <Slots/>
  <Dynamic/>
- <Lifecycle/>
+ <Lifecycle/> -->
 </template>
 
 
