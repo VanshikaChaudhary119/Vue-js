@@ -1,9 +1,14 @@
 <template>
 <h1>Call API</h1>
-<p v-for="item in list" :key="item">
+<!-- <p v-for="item in list" :key="item">
     {{ item.id }} ---- {{ item.email }} ---- {{ item.first_name }}
-</p>
-
+</p> -->
+<ul v-for="item in list" :key="item.id">
+    <li>{{ item.id }}</li>
+    <li>{{ item.email }}</li>
+    <li>{{ item.first_name }}</li>
+    <li><img :src="item.avatar"></li>
+</ul>
 </template>
 <script>
 import axios from "axios";
