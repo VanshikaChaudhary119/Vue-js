@@ -1,4 +1,6 @@
 <script>
+import Api from './components/Api.vue';
+
 import Classbinding from './components/Classbinding.vue';
 import Computed from './components/Computed.vue';
 import Counter from './components/Counter.vue';
@@ -43,6 +45,7 @@ export default {
     // Slots
     // Dynamic
     // Lifecycle
+    Api
   },
 }
 </script>
@@ -79,6 +82,7 @@ export default {
  <Slots/>
  <Dynamic/>
  <Lifecycle/> -->
+ <Api/>
 </template>
 
 
